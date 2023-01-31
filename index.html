@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculator</title>
+    <style>
+        .claculator-container
+        {
+            height: 400px;
+            width: 350px;
+            background-color: #666666;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 150px;
+            border-radius: 10px;
+            padding: 5px ;
+            box-shadow: 0 2px 10px black;
+           
+        }
+        
+        .calculator-brand
+        {
+            padding-left: 10px;
+            padding-top: 3px;
+            font-weight: bold;
+            color:#ff6666;
+            font-size: 20px;
+        }
+        .calculator-display
+        {
+            font-size: 25px;
+           height: 35px;
+           margin-left: 10px;
+           border-radius: 3px;
+           background-color: #e6e6e6;
+           margin-bottom: 10px;
+        }
+        .calculator-bottom
+        {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-around;
+         
+        }
+        .bottom-container
+        {
+           height: 40px;
+           width: 50px;
+           border-radius: 5px;
+           font-weight:bold;
+           margin: 5px;
+           font-size: 20px;
+           background-color: white;
+           border: 2px solid antiquewhite;
+           cursor: pointer;
+        }
+        .bottom-container:hover
+        {
+            box-shadow: 0 2px 5px white;
+            transition: 0.4s;
+        }
+        .bottom-color
+        {
+            background-color: #6666ff;
+            color: white;
+        }
+        .CHECK
+        {
+            font-size: 10px;
+            padding: 2px;
+            font-weight: bold;
+            color: red;
+        }
+        .ac-bottom
+        {
+            background-color: #33ff77;
+        }
+        .row3
+        {
+          display: flex;
+          justify-content:;
+            
+        }
+
+    </style>
+</head>
+<body>
+   <div class="claculator-container">
+    <p class="calculator-brand">Calculator</p>
+    <input class="calculator-display" type="text"/>
+    <div class="calculator-bottom">
+        <button class="bottom-container CHECK">CHECK</button>
+        <button class="bottom-container">%</button>
+        <button class="bottom-container">*</button>
+        <button class="bottom-container bottom-color ac-bottom">AC</button>
+    </div>
+    <div class="calculator-bottom">
+        <button class="bottom-container">9</button>
+        <button class="bottom-container">8</button>
+        <button class="bottom-container">7</button>
+        <button class="bottom-container">%</button>
+    </div>
+    <div class="calculator-bottom">
+        <button class="bottom-container">6</button>
+        <button class="bottom-container">5</button>
+        <button class="bottom-container">4</button>
+        <button class="bottom-container ">/</button>
+    </div>
+    <div class="calculator-bottom row3">
+        <button class="bottom-container">3</button>
+        <button class="bottom-container">2</button>
+        <button class="bottom-container">1</button>
+        <button class="bottom-container">+</button>
+    </div>
+    <div class="calculator-bottom">
+        <button class="bottom-container">0</button>
+        <button class="bottom-container">00</button>
+        <button class="bottom-container">-</button>
+        <button class="bottom-container bottom-color">=</button>
+    </div>
+   </div>
+</body>
+</html>
