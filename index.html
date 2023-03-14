@@ -95,9 +95,9 @@
         }
         function calculateValue()
         {
-            const input=document.getElementById("calculator-display").value;
-            const ans=eval(input);
-            document.getElementById("calculator-display").value=ans;
+            const input=document.getElementById("calculator-display");
+            const ans=eval(input.value);
+            input.value=ans;
          }
     </script>
 </head>
